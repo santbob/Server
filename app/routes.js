@@ -24,14 +24,14 @@ module.exports = [{
     //     }
     // }, {
     method: 'POST',
-    path: '/v1/test',
+    path: '/v1/hltokenize',
     config: {
         auth: {
             strategy: 'token',
             mode: 'try'
         }
     },
-    handler: defaultHandler.test
+    handler: defaultHandler.hltokenize
 }, {
     method: 'POST',
     path: '/api',
