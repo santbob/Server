@@ -8,6 +8,9 @@
         "test-cov-html": "node node_modules/lab/bin/lab -a code -r html -o coverage.html",
         "start": "node ."
     },
+    "engines": {
+        "node": ">=6.2.1"
+    },
     "repository": {
         "type": "git",
         "url": "git+https://github.com/santbob/server.git"
