@@ -17,7 +17,7 @@ var expect = Code.expect;
 var it = lab.test;
 
 
-it('starts server and returns hapi server object', function (done) {
+it('Starts server and returns hapi server object', function (done) {
 
   Server(function (err, server) {
 
