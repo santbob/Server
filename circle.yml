@@ -8,3 +8,10 @@ machine:
   node:
     version:
       6.2.1
+
+deployment:
+  staging:
+    branch: master
+    codedeploy:
+      server:
+        deployment_group: my-deployment-group
