@@ -4,7 +4,7 @@
     "description": " General Purpose Node server for my projects",
     "main": "index.js",
     "scripts": {
-        "test": "node node_modules/lab/bin/lab -a code -t 100 -v",
+        "test": "node node_modules/lab/bin/lab -a code -v",
         "test-cov-html": "node node_modules/lab/bin/lab -a code -r html -o coverage.html",
         "start": "node ."
     },
